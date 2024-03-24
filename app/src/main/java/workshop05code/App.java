@@ -86,6 +86,7 @@ public class App {
                 guess = scanner.nextLine();
             }
         } catch (NoSuchElementException | IllegalStateException e) {
+            logger.log(level.warning,msg;"error message."); //added
             e.printStackTrace();
         }
 
